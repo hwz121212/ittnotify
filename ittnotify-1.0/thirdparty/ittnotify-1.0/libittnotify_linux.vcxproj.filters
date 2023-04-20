@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{2bb16e07-0783-49f4-9e3b-01058386764a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\legacy">
+      <UniqueIdentifier>{4d27e9d8-6183-4c6e-893f-ba5760e87a5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{e96f1a1f-d9e9-4c1d-9108-c26d62c70d85}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\disable_warnings.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ittnotify.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ittnotify_config.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ittnotify_static.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ittnotify_types.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jitprofiling.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libittnotify.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\llvm_jit_event_listener.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\legacy\ittnotify.h">
+      <Filter>include\legacy</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ittnotify_static.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jitprofiling.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
